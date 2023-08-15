@@ -22,7 +22,7 @@ class PlantsController < ApplicationController
   # PATCH /plants/:id
   def update
     plant = find_plant
-    plant.update(plant_params))
+    plant.update(plant_params)
     render json: plant
   end
 
